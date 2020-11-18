@@ -7,7 +7,7 @@ $(function () {
         $.post('/api/v1/shorten', {
             url:url
         },function (data) {
-            $('#shortcode').html("Chotta URL: " + '<a href="/' + data + '">'+window.location.href+data + '</a>');
+            $('#shortcode').html("short URL: " + '<a href="/' + data + '">'+window.location.href+data + '</a>');
         })
     })
 })
