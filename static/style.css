@@ -46,10 +46,11 @@
     font-style: inherit;
     margin-top: 3%;
     margin-left: 25%;
-    background:#FFFF00;
+    background:#00FFFF;
     width:fit-content;
 }
 .center{
-    font-family: "American Typewriter";
+    font-family: "italics";
+
     font-size: 40px;
 }
