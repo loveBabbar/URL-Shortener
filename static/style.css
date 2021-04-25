@@ -53,3 +53,21 @@
     font-family: "American Typewriter";
     font-size: 40px;
 }
+@keyframes transition1
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+html{
+    animation: transition1 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: cornsilk;
+}
+
